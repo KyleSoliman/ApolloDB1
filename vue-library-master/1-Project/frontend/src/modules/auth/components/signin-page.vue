@@ -4,7 +4,7 @@
       <div class="content">
         <div class="logo">
           <h1>
-            <app-i18n code="app.title"></app-i18n>
+            AMA SCHOOL OF MEDICINE
           </h1>
         </div>
 
@@ -65,12 +65,21 @@
             </router-link>
           </div>
 
+          
+          <div class="social-buttons">
+            <i class="fab fa-facebook social-icon"></i>
+            <i class="fab fa-google social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
+          </div>
+
           <app-i18n-flags></app-i18n-flags>
         </el-form>
       </div>
     </div>
   </div>
 </template>
+
+
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
